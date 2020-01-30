@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "910974976634",
+    "firebase_url": "https://leisure-breaker.firebaseio.com",
+    "project_id": "leisure-breaker",
+    "storage_bucket": "leisure-breaker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910974976634:android:190ffe9020bda170",
+        "android_client_info": {
+          "package_name": "aptitude.leisure.breaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910974976634-1eiihn1m9f19nlra6t3oomsb1m7sa15d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwCc5qiZX4HCP6c782zPmJcpNWv-QfRxk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-2052757055681240~3637998856"
+    }
+  ],
+  "configuration_version": "1"
+}

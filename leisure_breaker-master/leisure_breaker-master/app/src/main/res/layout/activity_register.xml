@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="aptitude.sasurie.leisurebreaker.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_text"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:fontFamily="@font/font"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+
+            />
+
+        <EditText
+            android:id="@+id/reg_no"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="@string/register_number"
+            android:inputType="number"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_text"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:fontFamily="@font/font"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp"
+            android:paddingLeft="10dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editdept"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/round_text"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/font"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp"
+                android:hint="Dept"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/round_text"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/font"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp"
+                android:layout_toEndOf="@+id/editdept"
+                android:layout_toRightOf="@+id/editdept"
+                android:hint="year"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/ph_no"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_text"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:fontFamily="@font/font"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp"
+            android:hint="@string/mobile_number"
+            android:inputType="phone"
+            android:paddingLeft="10dp"
+            />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_text"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:fontFamily="@font/font"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp"
+            android:hint="@string/email_id"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/round_text"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:fontFamily="@font/font"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            />
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/round_button"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:text="@string/register"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:fontFamily="@font/font"
+
+                />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
